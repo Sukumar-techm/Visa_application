@@ -18,7 +18,7 @@ public class ApplicationEntry extends HttpServlet {
      */
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-
+        
     }
 
     /** Destroys the servlet.
