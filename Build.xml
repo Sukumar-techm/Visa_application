@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" ?>
  
 <project name="visa" default="jar" >
@@ -12,21 +11,4 @@
 	<fileset dir="."/>
 	</war>
 	</target>
-
-=======
-<?xml version="1.0" ?>
- 
-<project name="visa" default="war" >
- 
-	<target name="clean">
-	<delete dir="war" />
-	</target>
-	
-	<target name="war" depends="clean">
-	<war destfile="war/visaprocessinginformation.war">
-	<fileset dir="."/>
-	</war>
-	</target>
-
->>>>>>> 591a738f207b305f3eff91ab605e29a44c7bf0ad
 </project>
